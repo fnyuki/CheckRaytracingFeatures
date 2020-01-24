@@ -90,7 +90,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CheckRaytracingFeatures.cpp" />
+    <ClCompile Include="src\CheckRaytracingFeatures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CheckRaytracingFeatures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
